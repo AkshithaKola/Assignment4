@@ -1,0 +1,48 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage[cmex10]{amsmath}
+\usepackage{amsthm}
+\usepackage[justification=centering]{caption}
+\usepackage{bm}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{mathtools}
+ \usepackage{tikz}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{listings}
+\usepackage{color}                                            %%
+\usepackage{array}                                            %%
+\usepackage{longtable}                                        %%
+\usepackage{calc}          
+\usepackage{multirow}                                         %%
+\usepackage{hhline}                                           %%
+\usepackage{ifthen}                                           %%
+\usepackage{lscape}     
+\usepackage{multicol}
+\usepackage[utf8]{inputenc}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\begin{document}
+\vspace{3cm}
+\title{Assignment IV (CBSE Class 9 Probability)}
+\author{Kola Akshitha}
+\maketitle
+\textbf{Example 7:} The percentage of marks obtained by a student in the monthly unit tests are given below: \\
+\begin{table}[ht!]
+\begin{center}
+    \input{Tables/table.tex}
+	\vspace{5pt}
+\caption{}
+\label{table:table1}
+\end{center}
+	
+\end{table}
+Based on this data find the probability that the student gets more than 70\% marks in a unit test. \\
+\solution\\
+Total number of unit tests conducted is 5.\\
+The number of unit tests in which the student scored more than 70\% is 3 \\
+$\therefore$ 
+   Pr(scoring greater than 70\% marks)$ = \frac{3}{5} = 0.6$
+\end{document}
